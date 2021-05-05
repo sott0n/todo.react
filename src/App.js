@@ -49,7 +49,7 @@ class TodoBox extends React.Component {
 
     render() {
         return (
-            <div className="card card-body bg-light">
+            <div>
                 This is a ToDo list, written by React App 😎
                 <TodoList data={this.state.data} removeTask={this.handleRemove} doneTask={this.handleDone} />
                 <TodoForm onTaskSubmit={this.handleSubmit} />
