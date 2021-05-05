@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,mBACI,YACJ,CAEA,mBACI,cACJ,CAEA,YACI,qBACJ","file":"main.f3c5ba8b.chunk.css","sourcesContent":[".vert-offset-top-0{\n    margin-top: 0em;\n}\n\n.vert-offset-top-2{\n    margin-top: 2em;\n}\n\n.submit-box{\n    box-sizing:border-box;\n}\n"]}
