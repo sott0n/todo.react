@@ -13,10 +13,10 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - name: Install create-react-app
-        run: npm install -g create-react-app
+      - name: Install
+        run: yarn install
       - name: Build
-        run: npm run build
+        run: yarn build
       - name: App Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
