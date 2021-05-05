@@ -28,7 +28,10 @@ function App() {
 
     return (
         <div className="App">
-            <div><h1>TODO List</h1></div>
+            <div>
+                <h1>TODO List</h1>
+                This is managing your TODO tasks everyday 😎
+            </div>
             <form onSubmit={handlerSubmit}>
                 <input name="task" />
                 <button>Submit</button>
