@@ -1,17 +1,11 @@
-.checked {
-    text-decoration: line-through;
+.vert-offset-top-0{
+    margin-top: 0em;
 }
 
-ul {
-    list-style: none;
+.vert-offset-top-2{
+    margin-top: 2em;
 }
 
-label {
-    margin-left: 16px;
-    margin-right: 16px;
-}
-
-input[type="checkbox"] {
-    width: 16px;
-    height: 16px;
+.submit-box{
+    box-sizing:border-box;
 }
